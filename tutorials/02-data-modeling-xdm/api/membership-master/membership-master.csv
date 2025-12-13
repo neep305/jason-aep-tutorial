@@ -1,0 +1,4 @@
+﻿loyaltyId,email,phone,firstName,lastName,status,tier,points,joinDate,optInEmail,optInSms
+L-55667788,test.user@example.com,+821012345678,Test,User,active,gold,1200,2020-03-15,true,true
+L-11223344,second.user@example.com,+821055577788,Second,User,active,silver,540,2021-07-02,true,false
+L-99887766,third.user@example.com,,Third,User,inactive,bronze,50,2019-11-20,false,false

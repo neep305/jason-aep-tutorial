@@ -1,0 +1,23 @@
+﻿{
+  "class": "XDM ExperienceEvent",
+  "fieldGroups": [
+    "Adobe ExperienceEvent Commerce Details",
+    "Adobe ExperienceEvent Web Details",
+    "Adobe ExperienceEvent Identity",
+    "Tenant - Engagement"
+  ],
+  "tenantFields": {
+    "tenant.engagement.channel": "string",
+    "tenant.engagement.campaignId": "string",
+    "tenant.engagement.placementId": "string",
+    "tenant.engagement.experienceId": "string"
+  },
+  "identity": {
+    "primary": "ecid",
+    "secondary": ["email"]
+  },
+  "governanceLabels": {
+    "personalEmail.address": ["C3", "L2"],
+    "homePhone.number": ["C2", "L2"]
+  }
+}

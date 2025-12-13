@@ -1,0 +1,11 @@
+﻿id,customerId,type,timestamp,productId,quantity
+EV-10001,C-1001,commerce.productListAdds,2025-01-15T03:21:45Z,sku-123,1
+EV-10002,C-1002,commerce.productListAdds,2025-01-15T03:22:10Z,sku-456,2
+EV-10003,C-1003,commerce.productListViews,2025-01-15T03:23:05Z,sku-789,1
+EV-10004,C-1004,commerce.productListAdds,2025-01-15T03:24:30Z,sku-123,1
+EV-10005,C-1005,commerce.productListAdds,2025-01-15T03:25:10Z,sku-321,3
+EV-10006,C-1006,commerce.productListViews,2025-01-15T03:26:15Z,sku-789,1
+EV-10007,C-1007,commerce.productListAdds,2025-01-15T03:27:40Z,sku-456,1
+EV-10008,C-1008,commerce.productListAdds,2025-01-15T03:28:55Z,sku-123,2
+EV-10009,C-1009,commerce.productListViews,2025-01-15T03:29:20Z,sku-321,1
+EV-10010,C-1010,commerce.productListAdds,2025-01-15T03:30:05Z,sku-789,1

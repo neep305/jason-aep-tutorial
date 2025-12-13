@@ -1,0 +1,13 @@
+﻿{
+  "class": "XDM ExperienceEvent",
+  "fieldGroups": [
+    "Adobe ExperienceEvent Application Details",
+    "Adobe ExperienceEvent Commerce Details",
+    "Adobe ExperienceEvent Identity",
+    "Tenant - Engagement"
+  ],
+  "identity": {
+    "primary": "ecid",
+    "secondary": ["email"]
+  }
+}

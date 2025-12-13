@@ -1,0 +1,22 @@
+﻿{
+  "identityMap": {
+    "loyaltyId": [ { "id": "L-55667788", "primary": true } ],
+    "email": [ { "id": "test.user@example.com" } ],
+    "phone": [ { "id": "+821012345678" } ]
+  },
+  "person": {
+    "name": { "firstName": "Test", "lastName": "User" },
+    "gender": "unknown",
+    "birthDate": "1990-05-20"
+  },
+  "personalEmail": { "address": "test.user@example.com" },
+  "homePhone": { "number": "+821012345678" },
+  "homeAddress": {
+    "street1": "123 Sample-ro",
+    "city": "Seoul",
+    "postalCode": "04524",
+    "country": "KR"
+  },
+  "preferredLanguage": "ko-KR",
+  "loyalty": { "loyaltyId": "L-55667788", "points": 1200, "status": "gold" }
+}

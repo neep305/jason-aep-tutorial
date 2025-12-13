@@ -1,0 +1,11 @@
+﻿loyaltyId,email,phone,firstName,lastName,birthDate,gender,street1,city,postalCode,country,preferredLanguage,points,status,etl_change_datetime
+L-55667788,test.user@example.com,+821012345678,Test,User,1990-05-20,unknown,123 Sample-ro,Seoul,04524,KR,ko-KR,1200,gold,2025-01-15T03:10:00Z
+L-11223344,second.user@example.com,+821055577788,Second,User,1985-03-10,female,45 Demo-gil,Busan,48789,KR,ko-KR,540,silver,2025-01-15T03:11:00Z
+L-22334455,jay.park@example.com,+821077788899,Jay,Park,1992-08-11,male,88 River-ro,Incheon,22011,KR,ko-KR,320,bronze,2025-01-15T03:12:00Z
+L-66778899,hana.kim@example.com,+821099988877,Hana,Kim,1995-12-04,female,12 Garden-gil,Daegu,41999,KR,ko-KR,980,silver,2025-01-15T03:12:30Z
+L-44556677,yuna.choi@example.com,+821033344455,Yuna,Choi,1998-02-17,female,5 Seaside-ro,Busan,48999,KR,ko-KR,150,bronze,2025-01-15T03:13:00Z
+L-77889900,dongho.lee@example.com,+821044466688,Dongho,Lee,1982-06-29,male,240 Mountain-ro,Gwangju,61012,KR,ko-KR,2500,gold,2025-01-15T03:13:30Z
+L-99001122,sujin.yoon@example.com,,Sujin,Yoon,1987-09-15,female,32 Lake-gil,Seoul,04567,KR,en-US,700,silver,2025-01-15T03:14:00Z
+L-12344321,hj.ahn@example.com,+821055566677,Hyunjoon,Ahn,1979-01-03,male,77 Forest-ro,Daejeon,34111,KR,ko-KR,60,bronze,2025-01-15T03:14:30Z
+L-55669988,mina.jung@example.com,+821022233344,Mina,Jung,1993-11-25,female,19 Market-gil,Seoul,03155,KR,ko-KR,1340,gold,2025-01-15T03:15:00Z
+L-88776655,paul.han@example.com,+821066655544,Paul,Han,1989-04-07,male,301 Harbor-ro,Incheon,22345,KR,en-US,430,silver,2025-01-15T03:15:30Z

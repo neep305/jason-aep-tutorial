@@ -1,0 +1,31 @@
+﻿{
+  "eventType": "commerce.productViews",
+  "timestamp": "2025-01-15T03:21:45Z",
+  "identityMap": {
+    "ecid": [ { "id": "987654321012345678901234" } ],
+    "email": [ { "id": "test.user@example.com" } ]
+  },
+  "web": {
+    "webPageDetails": { "URL": "https://shop.example.com/product/sku-123" },
+    "webReferrer": { "URL": "https://search.example.com?q=shoes" }
+  },
+  "commerce": {
+    "productListItems": [
+      {
+        "SKU": "sku-123",
+        "name": "Running Shoes",
+        "quantity": 1,
+        "priceTotal": 89000,
+        "currencyCode": "KRW"
+      }
+    ]
+  },
+  "tenant": {
+    "engagement": {
+      "channel": "api",
+      "campaignId": "winter-25",
+      "placementId": "hp-hero",
+      "experienceId": "exp-001"
+    }
+  }
+}

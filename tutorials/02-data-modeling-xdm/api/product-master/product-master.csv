@@ -1,0 +1,5 @@
+﻿sku,name,category,brand,price,currencyCode,inventory,isActive
+sku-123,Running Shoes,Shoes,RunFast,89000,KRW,245,true
+sku-456,Trail Backpack,Bags,PeakPro,129000,KRW,120,true
+sku-789,Water Bottle,Accessories,HydraGo,19000,KRW,980,true
+sku-321,Sports Socks,Socks,RunFast,5900,KRW,1500,true

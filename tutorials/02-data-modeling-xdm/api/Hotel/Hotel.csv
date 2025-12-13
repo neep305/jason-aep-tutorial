@@ -1,0 +1,11 @@
+﻿id,brand,city,country,street1,street2,postalCode,email,petsAllowed,starRating
+HOT-01,StayPlus,Seoul,KR,123 Sample-ro,,04524,stayplus-seoul@example.com,true,5
+HOT-02,StayPlus,Busan,KR,45 Demo-gil,Floor 3,48789,stayplus-busan@example.com,false,4
+HOT-03,UrbanRest,Incheon,KR,88 River-ro,,22011,urbanrest-inc@example.com,true,4
+HOT-04,UrbanRest,Seoul,KR,240 Mountain-ro,,06123,urbanrest-seoul@example.com,false,3
+HOT-05,SeaBreeze,Jeju,KR,19 Beach-gil,,63094,seabreeze-jeju@example.com,true,5
+HOT-06,SeaBreeze,Busan,KR,301 Harbor-ro,,48999,seabreeze-busan@example.com,true,4
+HOT-07,PeakPro,Daegu,KR,12 Garden-gil,,41999,peakpro-daegu@example.com,false,3
+HOT-08,PeakPro,Gwangju,KR,77 Forest-ro,,61012,peakpro-gj@example.com,false,4
+HOT-09,Lakeview,Seoul,KR,32 Lake-gil,,04567,lakeview-seoul@example.com,true,4
+HOT-10,Lakeview,Daejeon,KR,55 Valley-ro,,34111,lakeview-dj@example.com,false,3

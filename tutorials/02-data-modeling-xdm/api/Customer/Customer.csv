@@ -1,0 +1,11 @@
+﻿id,firstName,lastName,birthDate,email,phone,favoriteHotel,subscriptions
+C-1001,Test,User,1990-05-20,test.user@example.com,+821012345678,HOT-01,premium-news|offers
+C-1002,Jay,Park,1992-08-11,jay.park@example.com,+821077788899,HOT-02,offers
+C-1003,Hana,Kim,1995-12-04,hana.kim@example.com,+821099988877,HOT-03,premium-news|mobile-app
+C-1004,Yuna,Choi,1998-02-17,yuna.choi@example.com,+821033344455,HOT-02,offers|sms
+C-1005,Dongho,Lee,1982-06-29,dongho.lee@example.com,+821044466688,HOT-04,premium-news
+C-1006,Sujin,Yoon,1987-09-15,sujin.yoon@example.com,+821022233344,HOT-01,offers|sms
+C-1007,Hyunjoon,Ahn,1979-01-03,hj.ahn@example.com,+821055566677,HOT-05,mobile-app
+C-1008,Mina,Jung,1993-11-25,mina.jung@example.com,+821022233344,HOT-03,premium-news|offers
+C-1009,Paul,Han,1989-04-07,paul.han@example.com,+821066655544,HOT-02,offers|mobile-app
+C-1010,Aria,Seo,1996-10-30,aria.seo@example.com,+821077712345,HOT-04,premium-news

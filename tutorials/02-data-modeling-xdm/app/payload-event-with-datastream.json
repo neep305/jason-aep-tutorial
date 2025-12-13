@@ -1,0 +1,40 @@
+﻿{
+  "xdm": {
+    "eventType": "commerce.productViews",
+    "timestamp": "2025-01-15T03:21:45Z",
+    "identityMap": {
+      "ecid": [ { "id": "123456789012345678901234" } ],
+      "email": [ { "id": "app.user@example.com" } ]
+    },
+    "application": {
+      "name": "SampleShop",
+      "version": "2.5.1",
+      "isLaunch": false
+    },
+    "device": {
+      "manufacturer": "Apple",
+      "model": "iPhone15,3",
+      "type": "mobile"
+    },
+    "commerce": {
+      "productListItems": [
+        {
+          "SKU": "sku-123",
+          "name": "Running Shoes",
+          "quantity": 1,
+          "priceTotal": 89000,
+          "currencyCode": "KRW"
+        }
+      ]
+    },
+    "tenant": {
+      "engagement": {
+        "channel": "app",
+        "campaignId": "winter-25",
+        "placementId": "home-carousel",
+        "experienceId": "exp-002"
+      }
+    }
+  },
+  "datastreamId": "<YOUR_DATASTREAM_ID>"
+}

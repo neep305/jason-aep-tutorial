@@ -1,0 +1,4 @@
+﻿timestamp,eventType,SKU,name,quantity,priceTotal,currencyCode,pageUrl,referrerUrl,ecid,email,campaignId,placementId,experienceId,channel
+2025-01-15T03:21:45Z,commerce.productViews,sku-123,Running Shoes,1,89000,KRW,https://shop.example.com/product/sku-123,https://search.example.com?q=shoes,987654321012345678901234,test.user@example.com,winter-25,hp-hero,exp-001,api
+2025-01-15T03:23:10Z,commerce.productListAdds,sku-123,Running Shoes,1,89000,KRW,https://shop.example.com/cart,https://shop.example.com/product/sku-123,987654321012345678901234,test.user@example.com,winter-25,hp-hero,exp-001,api
+2025-01-15T03:30:02Z,commerce.purchases,sku-123,Running Shoes,1,89000,KRW,https://shop.example.com/thankyou,https://shop.example.com/checkout,987654321012345678901234,test.user@example.com,winter-25,hp-hero,exp-001,api

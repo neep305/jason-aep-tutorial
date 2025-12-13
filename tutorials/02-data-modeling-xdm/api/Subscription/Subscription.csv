@@ -1,0 +1,11 @@
+﻿id,category,planName
+SUB-01,news,premium-news
+SUB-02,offers,offers
+SUB-03,app,mobile-app
+SUB-04,news,standard-news
+SUB-05,offers,loyalty-offers
+SUB-06,app,pro-app
+SUB-07,news,executive-news
+SUB-08,offers,student-offers
+SUB-09,app,basic-app
+SUB-10,news,travel-news
