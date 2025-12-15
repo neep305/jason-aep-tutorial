@@ -34,4 +34,4 @@ curl -X POST 'https://ims-na1.adobelogin.com/ims/token/v3' -H 'Content-Type: app
 - Credential 생성
 - 생성된 Credential을 프로젝트에 연결:
     - 연결방법: AEP > Administration - Permissions > 샌드박스 선택 > API credentials 탭 > Add API credentials
-     
+    

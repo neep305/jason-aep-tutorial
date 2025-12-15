@@ -1,2 +1,10 @@
 oauth*
 .env
+
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
+node_modules/
+.python-version

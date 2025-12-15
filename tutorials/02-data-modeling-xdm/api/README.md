@@ -16,5 +16,6 @@
 - batch-profile.csv
 - product-master.csv
 - membership-master.csv
+- customer.csv
 
 ### Time-series

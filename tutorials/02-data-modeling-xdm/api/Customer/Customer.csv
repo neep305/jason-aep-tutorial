@@ -1,4 +1,4 @@
-﻿id,firstName,lastName,birthDate,email,phone,favoriteHotel,subscriptions
+﻿cusId,firstName,lastName,birthDate,email,phone,favoriteHotel,subscriptions
 C-1001,Test,User,1990-05-20,test.user@example.com,+821012345678,HOT-01,premium-news|offers
 C-1002,Jay,Park,1992-08-11,jay.park@example.com,+821077788899,HOT-02,offers
 C-1003,Hana,Kim,1995-12-04,hana.kim@example.com,+821099988877,HOT-03,premium-news|mobile-app
