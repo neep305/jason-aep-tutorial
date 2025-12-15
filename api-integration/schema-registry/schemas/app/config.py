@@ -1,6 +1,9 @@
 import os
 from dataclasses import dataclass
+from pathlib import Path
 from typing import Optional
+
+from dotenv import load_dotenv
 
 
 @dataclass
@@ -22,8 +25,30 @@ def _required(name: str, value: Optional[str]) -> str:
     return value
 
 
-def load_config() -> Config:
-    """Load all environment-based configuration for OAuth and Schema Registry."""
+def _load_env_file(env_file: Optional[os.PathLike[str] | str] = None) -> None:
+    """Load environment variables from a .env file if present."""
+    env_path = Path(env_file) if env_file else None
+
+    if env_path is None:
+        env_override = os.environ.get("SCHEMAS_ENV_FILE")
+        if env_override:
+            env_path = Path(env_override)
+
+    if env_path is None:
+        env_path = Path(__file__).resolve().parent.parent / ".env"
+
+    load_dotenv(env_path, override=False)
+
+
+def load_config(env_file: Optional[os.PathLike[str] | str] = None) -> Config:
+    """Load all environment-based configuration for OAuth and Schema Registry.
+
+    When `env_file` is provided (or `SCHEMAS_ENV_FILE` is set), it will be used to
+    populate environment variables before reading them. Defaults to a .env file
+    at the package root.
+    """
+    _load_env_file(env_file)
+
     gateway_url = os.environ.get("PLATFORM_GATEWAY_URL", "https://platform.adobe.io").rstrip("/")
     ims_token_url = os.environ.get("IMS_TOKEN_URL", "https://ims-na1.adobelogin.com/ims/token/v3")
 
